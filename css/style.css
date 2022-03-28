@@ -1,0 +1,51 @@
+/* Custom Style Sheet */
+
+/* Font Styles */
+
+@media only screen and (max-width: 991px) { 
+   .search-bar{
+       width: 100% !important;
+   }
+}
+
+.bg-carousel{
+    background-color: #FEEAE9;
+}
+
+.banner-item-title, .banner-price{
+    font-family: 'Poppins';
+    font-style: normal;
+}
+
+.banner-item-text, .btn-grad{
+    font-family: 'Inter';
+    font-style: normal;
+}
+
+.banner-item-title{
+    font-weight: 700;
+    font-size: 56px;
+}
+
+.banner-item-text{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.btn-grad{
+    background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+    color: white;
+    font-size: 16px;
+    width: 168px;
+    height: 52px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.banner-price{
+    color: #FF136F;
+    font-weight: 500;
+    font-size: 41px;
+}
