@@ -2,19 +2,24 @@
 
 /* Font Styles */
 
-@media only screen and (max-width: 991px) { 
-   .search-bar{
-       width: 100% !important;
-   }
+
+
+
+body{
+    font-family: 'Poppins';
+    font-style: normal;
+}
+
+.h-90{
+    height: 90% !important;
 }
 
 .bg-carousel{
     background-color: #FEEAE9;
 }
 
-.banner-item-title, .banner-price{
-    font-family: 'Poppins';
-    font-style: normal;
+.border-10p{
+    border-radius: 10px;
 }
 
 .banner-item-text, .btn-grad{
@@ -23,7 +28,6 @@
 }
 
 .banner-item-title{
-    font-weight: 700;
     font-size: 56px;
 }
 
@@ -34,18 +38,76 @@
     font-size: 16px;
 }
 
-.btn-grad{
-    background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+.btn-grad, .btn-black{
     color: white;
-    font-size: 16px;
     width: 168px;
     height: 52px;
-    font-weight: 500;
-    font-size: 16px;
+}
+.btn-grad:hover, .btn-black:hover{
+    color: white;
+}
+
+.btn-grad{
+    background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+}
+
+.btn-black{
+    background: black;
+}
+
+.contact-email, .btn-submit{
+    width: 80px;
+    height: 53px;
+}
+
+.contact-email{
+    width: 300px;
+}
+
+.category-1{
+    background: linear-gradient(152.07deg, #FF9C35 1.47%, #FFD019 97.17%);
+}
+
+.category-2{
+    background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+}
+
+.category-3{
+    background: linear-gradient(170.41deg, #4289FF -10.89%, #3F07F8 92.77%);
 }
 
 .banner-price{
     color: #FF136F;
-    font-weight: 500;
-    font-size: 41px;
 }
+
+.prod-bg{
+    background: #F4F4F4;
+}
+
+.prod-all-link{
+    color: #FF9D00;
+    text-decoration: none;
+}
+.prod-all-link:hover{
+    color: #ffa616;
+}
+
+.subscribe-section{
+    height: 400px;
+}
+
+@media only screen and (max-width: 991px) { 
+    .search-bar{
+        width: 100% !important;
+    }
+    
+ }
+
+ @media only screen and (max-width: 500px) {
+     .btn-grad{
+         width: 120px;
+         height: 42px;
+         font-size: 12px;
+     }
+     
+ }
